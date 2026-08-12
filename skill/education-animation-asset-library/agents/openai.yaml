@@ -1,0 +1,4 @@
+interface:
+  display_name: "Education Animation Asset Library"
+  short_description: "Reusable education animation templates and library guardrails"
+  default_prompt: "Use $education-animation-asset-library to catalog safe reusable elements from this education animation project."

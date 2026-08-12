@@ -1,0 +1,25 @@
+# Local Codex state
+.codex/
+.cache/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+
+# Generated validation output
+validation-report.json
+
+# Do not accidentally add media or archives to the public template repository
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.wav
+*.mp3
+*.m4a
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.zip
+*.7z

@@ -1,0 +1,27 @@
+{
+  "asset_id": "eduanim-example-semantic-comparison-card",
+  "title": "Three-step comparison card with editable labels",
+  "route": "editorial-magazine-explainer",
+  "asset_type": "remotion-template",
+  "purpose": "Show a small set of comparable options without reusing a topic-specific claim.",
+  "source_project": "private-project-reference",
+  "availability": "present",
+  "reuse_conditions": [
+    "Replace all factual labels and numbers with verified project data.",
+    "Keep caption and explanation text outside the component unless the component defines an internal text region.",
+    "Review contrast, safe zones, and reading time for the new vertical composition."
+  ],
+  "rights": {
+    "status": "cleared",
+    "notes": "This template contains no third-party media, proprietary fonts, or project-specific facts."
+  },
+  "public_export_eligible": false,
+  "tags": [
+    "education-animation",
+    "editorial-magazine",
+    "semantic-component",
+    "comparison",
+    "remotion-template"
+  ],
+  "search_text": "Editable vertical comparison card for three choices, labels, and a short conclusion."
+}

@@ -1,0 +1,39 @@
+{
+  "scene_id": "S01",
+  "route": "editorial-magazine-explainer",
+  "narration_window": {
+    "start_seconds": 0,
+    "end_seconds": 5.5
+  },
+  "message": "State one claim that the component should help the viewer understand.",
+  "visual_role": "semantic-component",
+  "component": {
+    "asset_id": "eduanim-example-semantic-comparison-card",
+    "editable_fields": [
+      "title",
+      "labels",
+      "values",
+      "conclusion"
+    ],
+    "internal_text_required": true
+  },
+  "caption": {
+    "source": "timed-caption-file",
+    "safe_zone": "vertical-center-safe-zone",
+    "avoid_regions": [
+      "component-title",
+      "primary-value"
+    ]
+  },
+  "locks": {
+    "master_clock": true,
+    "approved_facts": true,
+    "source_audio": true
+  },
+  "qa": {
+    "check_facts_against_source": true,
+    "check_text_overflow": true,
+    "check_caption_overlap": true,
+    "check_component_readability": true
+  }
+}
