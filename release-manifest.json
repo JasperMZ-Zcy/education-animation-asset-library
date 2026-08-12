@@ -3,6 +3,7 @@
   "repository": "JasperMZ-Zcy/education-animation-asset-library",
   "license": "MIT",
   "scope": "Newly authored Skill instructions, blank templates, generic Remotion examples, and public-boundary checks for education animation asset libraries.",
+  "verification_basis": "The release is verified against the exact Git tree and Git blob object IDs on the published main branch. This avoids false differences caused by local Windows line endings.",
   "exclusions": [
     "Project media and finished videos",
     "Raw voiceover, music, fonts, and source assets",
@@ -11,90 +12,24 @@
     "Private project names, paths, credentials, and configuration"
   ],
   "files": [
-    {
-      "path": ".gitignore",
-      "sha256": "09daedb86ee0016ca8bf6ea26972a35272b0bfef5e20bf0aa5980dc0713fbd47",
-      "bytes": 306
-    },
-    {
-      "path": "LICENSE",
-      "sha256": "d45d060d786155b01306ee7e3c7240d1d92e8b9c70500a4727d3b22b7f209a6a",
-      "bytes": 1069
-    },
-    {
-      "path": "README.md",
-      "sha256": "b8850e093a979a9f00017d63ce1f60218e3c3e6e75ff6bb9eebe8d1718e38ca1",
-      "bytes": 5592
-    },
-    {
-      "path": "VERSION",
-      "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
-      "bytes": 6
-    },
-    {
-      "path": "install.ps1",
-      "sha256": "c5affccc03eeeab1a6ea9c76a8f081d883108cf9b17e281bcf684bbd26eda3b0",
-      "bytes": 1207
-    },
-    {
-      "path": "skill/education-animation-asset-library/agents/openai.yaml",
-      "sha256": "d6cea181df4a306db6b0fa4cb39d75694944329beea38c92e88877a800105446",
-      "bytes": 284
-    },
-    {
-      "path": "skill/education-animation-asset-library/assets/templates/asset-record.template.json",
-      "sha256": "c4a614358af043cb0beb1e948cc70f64c026ab56aef84af97dad4690c67657cf",
-      "bytes": 1110
-    },
-    {
-      "path": "skill/education-animation-asset-library/assets/templates/CaptionLayer.tsx",
-      "sha256": "19be94c5fbaa57e76a6c2d84b07e958a3f92ae716af141f5bb01f4239493d429",
-      "bytes": 1664
-    },
-    {
-      "path": "skill/education-animation-asset-library/assets/templates/ComponentScene.tsx",
-      "sha256": "313b20843dd451737656d6f888384d105192518286f5c854f66ed00ccece56a0",
-      "bytes": 3110
-    },
-    {
-      "path": "skill/education-animation-asset-library/assets/templates/scene-contract.template.json",
-      "sha256": "298b98a6c651b7f32b0b9aa1b5544e954ea345f0ec58a44b94749d275b6f69d3",
-      "bytes": 921
-    },
-    {
-      "path": "skill/education-animation-asset-library/references/asset-records.md",
-      "sha256": "8a0ce3a88974fd0973def47be1c27a60ab62dd062a29887e401f1295c277662a",
-      "bytes": 1740
-    },
-    {
-      "path": "skill/education-animation-asset-library/references/public-boundary.md",
-      "sha256": "a068f3508cd78b61d7a9c41825b51b4fb21a7e72b000959f86b44dfffc9dbcdc",
-      "bytes": 1769
-    },
-    {
-      "path": "skill/education-animation-asset-library/references/route-selection.md",
-      "sha256": "c8b425263b2b617da714f4c69f53e07216cc77924692d6c61ef3afef5c69458f",
-      "bytes": 1889
-    },
-    {
-      "path": "skill/education-animation-asset-library/scripts/validate_asset_record.py",
-      "sha256": "2920f55dccff60abd3d6cf73a096980e63040869fa8b6bfe95232d747752c4b2",
-      "bytes": 2945
-    },
-    {
-      "path": "skill/education-animation-asset-library/scripts/validate_public_release.py",
-      "sha256": "02951bc31aa47d1e1225cbad9be2136491b4b0ea893dd54eb0b9602f3bdc87c8",
-      "bytes": 2723
-    },
-    {
-      "path": "skill/education-animation-asset-library/SKILL.md",
-      "sha256": "f2ce7b71bc06cd32aa02f7010776e5e748e3a07635e559beb47f82f540ad3cb7",
-      "bytes": 4694
-    },
-    {
-      "path": "update.ps1",
-      "sha256": "d92caf84434e50f9d75f54a002138064cf3d4d031ee95f47a5db6f8539e6da80",
-      "bytes": 395
-    }
+    ".gitattributes",
+    ".gitignore",
+    "LICENSE",
+    "README.md",
+    "VERSION",
+    "install.ps1",
+    "release-manifest.json",
+    "skill/education-animation-asset-library/SKILL.md",
+    "skill/education-animation-asset-library/agents/openai.yaml",
+    "skill/education-animation-asset-library/assets/templates/CaptionLayer.tsx",
+    "skill/education-animation-asset-library/assets/templates/ComponentScene.tsx",
+    "skill/education-animation-asset-library/assets/templates/asset-record.template.json",
+    "skill/education-animation-asset-library/assets/templates/scene-contract.template.json",
+    "skill/education-animation-asset-library/references/asset-records.md",
+    "skill/education-animation-asset-library/references/public-boundary.md",
+    "skill/education-animation-asset-library/references/route-selection.md",
+    "skill/education-animation-asset-library/scripts/validate_asset_record.py",
+    "skill/education-animation-asset-library/scripts/validate_public_release.py",
+    "update.ps1"
   ]
 }
