@@ -38,8 +38,8 @@
     },
     {
       "path": "skill/education-animation-asset-library/agents/openai.yaml",
-      "sha256": "d6cea181df4a306db6b0fa4cb39d75694944329beea38c92e88877a800105446",
-      "bytes": 284
+      "sha256": "2fc25ce0c89f8a87e433c0927c1898e855cc4641dacf5d6e3f661b63339bee36",
+      "bytes": 280
     },
     {
       "path": "skill/education-animation-asset-library/assets/templates/asset-record.template.json",
